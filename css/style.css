@@ -1,0 +1,146 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F0F4F9;
+}
+
+
+form {
+    background-color: white;
+    width: 400px;
+    margin: 80px auto;
+    padding: 25px;
+    border-radius: 40px 0px 40px 0px;
+}
+
+form a { 
+    transition: .4s;
+    color: black;
+    text-decoration: none;
+}
+.OnRegister {
+    border-bottom: 2px dotted rgb(0, 88, 88);
+    color: rgb(0, 88, 88);
+}
+.OnLogin {
+    border-bottom: 2px dotted rgb(0, 88, 88);
+    color: rgb(0, 88, 88);
+}
+.OnLogin:hover {
+    color: blueviolet;
+}
+
+form input {
+    margin: 5px 0px;
+    padding: 10px;
+    width: 350px;
+    height: 50px;
+    border-radius: 7px;
+}
+
+
+.dangKy {
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    transition: .4s;
+    background-color: white;
+    box-shadow: none;
+}
+.dangKy:hover {
+    background-color: gray;
+    box-shadow: 0 0 10px 1px gray;
+}
+
+.dangNhap {
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+    transition: .4s;
+    background-color: white;
+    box-shadow: none;
+}
+.dangNhap:hover {
+    background-color: gray;
+    box-shadow: 0 0 10px 1px gray;
+}
+
+
+form h1 {
+    text-align: center;
+    font-weight: bold;
+}
+.line{
+    width: 45%;
+    float: left;
+    height: 1px;
+    background-color: gray;
+    padding: 0;
+}
+.Or {
+    display: flex;
+    justify-items: center;
+}
+.or {
+    margin: -12px 5% 10px 5%;
+    width: 10%;
+    text-align: center;
+    float: left;
+    font-size: smaller;
+}
+
+.have-account {
+    font-size: small;
+}
+
+.fotgotpassword {
+    clear: both;
+    color: blue;
+    text-decoration: underline;
+}
+.fotgotpassword:hover {
+    color: brown;
+    text-decoration: underline;
+}
+
+
+.login-with-button {
+    clear: both;
+    justify-content: center;
+    display: flex;
+}
+.login-with-button button {
+    border: none;
+    transition: .3s;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.login-with-button i {
+    padding: 5px 17px;
+
+}
+.login-with-button button:hover {
+    box-shadow: 0 0 15px 2px black;
+    transition: .3s;
+    padding: 5px 20px;
+}
+.facebook {
+    background-color: cornflowerblue;
+    color: white;
+}
+.google {
+    background-color: orangered;
+    color: white;
+    margin: 0px 10px;
+}
+.twitter {
+    background-color: blue;
+    color: white;
+}
